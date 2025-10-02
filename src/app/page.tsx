@@ -168,35 +168,6 @@ export default function ToolsPage() {
           </div>
         </div>
 
-        {/* Weitere Tools */}
-        <div className="card p-6 mb-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">
-            🛠️ Weitere Tools
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-            <Link href="/tools/dod" className="card p-4 hover:shadow-lg transition-shadow">
-              <div className="flex items-center space-x-3">
-                <div className="text-2xl">✅</div>
-                <div>
-                  <h3 className="font-semibold text-gray-900">DoD & Retro</h3>
-                  <p className="text-sm text-gray-600">Definition of Done und Retrospektive</p>
-                </div>
-              </div>
-            </Link>
-            
-            <div className="card p-4 opacity-50">
-              <div className="flex items-center space-x-3">
-                <div className="text-2xl">📊</div>
-                <div>
-                  <h3 className="font-semibold text-gray-900">Backlog Board</h3>
-                  <p className="text-sm text-gray-600">To-Do / Doing / Done (Coming Soon)</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Regeln */}
         <div className="card p-6 mb-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">
